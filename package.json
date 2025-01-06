@@ -1,0 +1,22 @@
+{
+  "name": "dynamodb-serverless-framework",
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.721.0",
+    "@aws-sdk/lib-dynamodb": "^3.721.0"
+  },
+  "devDependencies": {
+    "@serverless/typescript": "^3.38.0",
+    "@types/aws-lambda": "^8.10.147",
+    "@types/node": "^22.10.5",
+    "esbuild": "^0.24.2",
+    "serverless": "^4.4.18",
+    "serverless-esbuild": "^1.54.6",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.2"
+  },
+  "license": "MIT"
+}

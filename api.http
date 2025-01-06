@@ -1,0 +1,30 @@
+@host = 'host_url'
+
+### 
+GET {{host}}/products
+
+### 
+GET {{host}}/products/f22c0882-64c9-461a-8e03-3f5164f159e9
+
+### 
+POST {{host}}/products
+Content-Type: application/json
+
+{
+  "name": "Calça Jeans",
+  "price": 189.9,
+  "tags": ["calça", "jeans"]
+}
+
+### 
+PUT {{host}}/products/f22c0882-64c9-461a-8e03-3f5164f159e9
+Content-Type: application/json
+
+{
+  "name": "[OFERTA] Calça Jeans",
+  "price": 159.9,
+  "tags": ["calça", "jeans"]
+}
+
+### 
+DELETE {{host}}/products/1efddba4-9e25-4ef7-97c1-fe604dabb7b3
